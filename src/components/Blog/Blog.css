@@ -88,7 +88,10 @@
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4dce383 (Update UI and README)
 .b-head {
   font-family: 'Electrolize';
   font-size: 32px;
@@ -105,4 +108,8 @@ color: #35514f;/* same dark tone as Figma */
   .b-head{
     font-size: 40px;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4dce383 (Update UI and README)
