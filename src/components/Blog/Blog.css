@@ -86,3 +86,23 @@
     font-size: 22px;
   }
 }
+
+
+
+.b-head {
+  font-family: 'Electrolize';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.1;
+color: #35514f;/* same dark tone as Figma */
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 768px) {
+  .b-head{
+    font-size: 40px;
+  }
+}
