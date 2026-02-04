@@ -1,0 +1,157 @@
+.home {
+  background: #fdf9ed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.home-container {
+  max-width: 1400px;
+  margin-left: 0;          /* 🔥 force left */
+  margin-right: auto;
+  padding-left: 10px;      /* left spacing like design */
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+
+
+/* LEFT */
+.home-text {
+  max-width: 620px;
+  text-align: left;
+}
+
+
+.home-title {
+font-family: 'Electrolize', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.1;
+color: #35514f;/* same dark tone as Figma */
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.home-subtitle {
+  font-size: 16px;
+  color: #555;
+  max-width: 520px;
+  margin-bottom: 32px;
+}
+
+
+
+
+.home-meta {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin-top: 48px;
+  max-width: 520px;   /* keeps it compact like design */
+}
+
+.meta-block {
+  max-width: 220px;
+}
+
+.meta-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2b2b2b;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.meta-text {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #6b6b6b;
+}
+
+.meta-divider {
+  width: 1px;
+  height: 70px;
+  background-color: #d6d6d6;
+}
+
+.meta-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #0f766e; /* green like design */
+  cursor: pointer;
+}
+
+
+
+
+
+/* BUTTONS */
+.home-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-primary {
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(90deg, #35514f, #099f9f);
+}
+
+.btn-secondary {
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: 1px solid #35514f;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* RIGHT */
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.home-image img {
+  width: 100%;
+  max-width: 520px;
+  opacity: 0.8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .home-title {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .home-subtitle {
+    text-align: center;
+    margin: auto;
+  }
+
+  .home-buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 68px;
+  }
+}

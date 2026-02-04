@@ -1,0 +1,106 @@
+.careers {
+  padding: 100px 60px;
+  background: #fdf9ed;
+}
+
+/* HEADER */
+.careers-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.careers-header h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.careers-header p {
+  max-width: 520px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* JOB LIST */
+.job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* JOB CARD */
+.job-card {
+  display: grid;
+  grid-template-columns: 2fr 2fr auto;
+  align-items: center;
+  padding: 22px 30px;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  background: transparent;
+}
+
+.job-card h4 {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+.job-card p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* APPLY BUTTON */
+.apply-btn {
+  padding: 10px 24px;
+  border-radius: 30px;
+  border: 1px solid #333;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* FOOT NOTE */
+.careers-note {
+  margin-top: 30px;
+  text-align: center;
+  color: #666;
+}
+
+.careers-note span {
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .careers-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .job-card {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+
+
+.c-head {
+  font-family: 'Electrolize';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.1;
+color: #35514f;/* same dark tone as Figma */
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 768px) {
+  .c-head{
+    font-size: 40px;
+  }
+}

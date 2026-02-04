@@ -1,0 +1,104 @@
+.process {
+  padding: 100px 60px;
+  background: #fdf9ed;
+}
+
+/* TOP CONTENT */
+.process-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 70px;
+}
+
+.process-top h2 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #0a0a0a;
+}
+
+.process-desc {
+  max-width: 420px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #060606;
+}
+
+/* ROW STEPS */
+.process-steps-row {
+  display: flex;
+  gap: 24px;
+  align-items: flex-end;
+}
+
+/* CARD BASE */
+.process-card {
+  width: 220px;
+  padding: 24px;
+  border-radius: 14px;
+  border: 1px solid #dcdcdc;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* STEP HEIGHTS (STAIR EFFECT) */
+.step-1 { height: 140px; }
+.step-2 { height: 170px; }
+.step-3 { height: 210px; }
+.step-4 { height: 250px; }
+.step-5 { height: 290px; }
+
+/* TEXT */
+.step-no {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #35514f;
+  margin-bottom: 10px;
+}
+
+.process-card h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0a0a0a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .process-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .process-steps-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .process-card {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+.process-top {
+  font-family: 'Electrolize';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.1;
+color: #35514f;/* same dark tone as Figma */
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 768px) {
+  .process-top {
+    font-size: 40px;
+  }
+}

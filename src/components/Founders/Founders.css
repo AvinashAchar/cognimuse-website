@@ -1,0 +1,165 @@
+.founders {
+  padding: 100px 60px;
+  background: #fdf9ed;
+}
+
+/* HEADER */
+.founders-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+.founders-header h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.founders-header p {
+  max-width: 520px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* CARDS */
+.founders-cards {
+  display: flex;
+  gap: 40px;
+}
+
+.founder-card {
+  position: relative;
+  width: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.founder-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* TEXT OVER IMAGE */
+.founder-info {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  color: white;
+}
+
+.founder-info h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.founder-info span {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .founders-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .founders-cards {
+    flex-direction: column;
+    
+  }
+
+  .founder-card {
+    width: 100%;
+  
+  }
+}
+
+
+
+
+
+.f-head {
+  font-family: 'Electrolize';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.1;
+color: #35514f;/* same dark tone as Figma */
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 768px) {
+  .f-head {
+    font-size: 40px;
+  }
+}
+
+
+
+
+
+/* CONTAINER FOR BOTH CARDS */
+.founders-cards {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SINGLE CARD */
+.founder-card {
+  width: 333px;
+  height: 400px;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* IMAGE */
+.founder-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* TEXT INSIDE IMAGE */
+.founder-info {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+/* NAME */
+.founder-info h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* ROLE */
+.founder-info span {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+
+.founder-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.6)
+  );
+}

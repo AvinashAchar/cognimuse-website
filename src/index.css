@@ -1,0 +1,140 @@
+:root {
+  --primary-dark: #35514f;
+  --primary-green: #099f9f;
+  --light-bg: #fdf9ed;
+  --text-black: #0a0a0a;
+}
+
+
+h1 {
+  font-family: "Electrolize", sans-serif;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--light-bg);
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  position: sticky;        /* 🔥 THIS IS IMPORTANT */
+  top: 0;
+  z-index: 999;            /* 🔥 Always on top */
+  background: var(--light-bg);
+  padding: 20px 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+/* Hamburger */
+.menu-icon {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* ================= HOME ================= */
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 80px 60px;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home img {
+  width: 420px;
+}
+
+/* Buttons */
+.home-buttons {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.primary-btn {
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    #35514f,
+    #099f9f,
+    #000000
+  );
+}
+
+.secondary-btn {
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: 1px solid var(--primary-dark);
+  background: transparent;
+}
+
+/* ================= MOBILE ================= */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: white;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home img {
+    width: 280px;
+  }
+}
