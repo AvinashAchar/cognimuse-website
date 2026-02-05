@@ -1,3 +1,47 @@
+# CogniMuse Frontend Assignment
+
+This project is a frontend implementation based on the provided Figma design. The focus was on layout structure, styling, and responsiveness.
+
+---
+
+## 🚀 Tech Stack Used
+
+- React.js
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Google Fonts (Electrolize)
+
+---
+
+## 🤖 AI Tools Used
+
+- ChatGPT
+  - Used for help with layout structure, CSS fixes, responsive styling, and debugging UI issues.
+  - Assisted in converting design ideas into code and improving code clarity.
+
+---
+
+## ⚡ Shortcuts / Assumptions
+
+- Used the Figma design as the primary reference for layout, spacing, and typography.
+- Static content and images were used instead of real backend or CMS data.
+- Focused more on UI structure and responsiveness rather than advanced animations or logic.
+
+---
+
+## ⚠️ Known Issues / Incomplete Parts
+
+- Minor text alignment issues in some sections.
+- Some background images and visual effects from the design are simplified or not fully added.
+- Advanced animations and transitions are not implemented.
+
+---
+
+## 📝 Notes
+
+This assignment was completed with a focus on clean UI, readable code, and responsiveness within the given time. Further refinements can be added with more time.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
