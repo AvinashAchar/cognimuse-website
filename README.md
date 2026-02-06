@@ -1,3 +1,7 @@
+https://github.com/AvinashAchar/cognimuse-website github link
+
+https://cognimuse-website-gray.vercel.app/ Vercel URL
+
 # CogniMuse Frontend Assignment
 
 This project is a frontend implementation based on the provided Figma design. The focus was on layout structure, styling, and responsiveness.
